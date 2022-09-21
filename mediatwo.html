@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Media Query</title>
+  <style>
+    header{
+      padding: 3px;
+      margin: 0;
+      text-align: center;
+      background-color: silver;
+
+
+    
+    }
+    ul{
+      list-style: none;
+    }
+    li{
+      display: inline;
+      margin: 5%;
+
+      
+    }
+    .card{
+      border-style: solid;
+      border-color: silver;
+      width:25%;
+      text-align: center;
+     display: inline-block;
+     min-height: 400px;
+     margin:10px ;
+     box-shadow: 10px 10px 15px black;
+     transition: all 2s ease-in ;
+
+     
+     
+
+
+
+    }
+    h1{
+      background-color: black;
+      color: whitesmoke;
+      padding:20px;
+      margin: 0;
+    }
+    h3{
+      border-bottom:2px solid silver;
+      margin:0;
+      padding:30px;
+      font-weight: lighter;
+    }
+
+    section{
+      width:100%;
+      margin-left: 5.5%;
+  
+    }
+
+    .btn{
+      padding:30px;
+      background: silver;
+    }
+
+    button{
+      padding: 10px;
+      color: white;
+      background:rgb(104, 146, 62) ;
+      border: none;
+      cursor: pointer;
+
+      
+    }
+  
+
+    /* Media Query */
+    @media only screen and (max-width:600px){
+     .card{
+       display: block;
+      width: 80%;
+      background: chartreuse;
+     }
+    
+
+
+    }
+  
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+  <ul>
+    <li>Home</li>
+    <li>Plans</li>
+    <li>About</li>
+    <li>Contacts</li>
+  </ul>
+</header>
+<section>
+<div class= "card">
+  <h1>Basic</h1>
+  <h3>10GB Storage</h3>
+  <h3>10 Emails</h3>
+  <h3>10 Domains</h3>
+  <h3>Endless Support</h3>
+  <h3><b>$10</b><br>per month</br></h3>
+  <div class= btn>
+    <button>Sign Up</button>
+
+  </div>
+</div>
+
+<div class= "card">
+  <h1>Basic</h1>
+  <h3>10GB Storage</h3>
+  <h3>10 Emails</h3>
+  <h3>10 Domains</h3>
+  <h3>Endless Support</h3>
+  <h3><b>$10</b><br>per month</br></h3>
+  <div class= btn>
+    <button>Sign Up</button>
+
+  </div>
+</div>
+
+<div class= "card">
+  <h1>Basic</h1>
+  <h3>10GB Storage</h3>
+  <h3>10 Emails</h3>
+  <h3>10 Domains</h3>
+  <h3>Endless Support</h3>
+  <h3><b>$10</b><br>per month</br></h3>
+  <div class= btn>
+    <button>Sign Up</button>
+
+  </div>
+</div>
+</section>
+
+
+
+  
+</body>
+</html>

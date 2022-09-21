@@ -1,0 +1,138 @@
+
+
+div{
+  color:gray;
+}
+
+.important{
+  font-weight: bold;
+  background-color: yellow;
+  color:red
+}
+/* a:link{
+  text-decoration:none;
+  color:mediumblue;
+
+}
+
+a:visited{
+  color:magenta;
+}
+a:focus,
+a:hover{
+text-decoration: underline;
+
+}
+a:active{
+ color:seagreen;
+} */
+
+/* .photo > div:hover,
+.photos > div:hover{
+  cursor: pointer;
+  transform: scale(2);
+} */
+
+
+input:hover{
+  transform: rotate(2)
+  scale(2);
+
+}
+
+ 
+
+
+
+input[name]{
+  border:2px solid royalblue;
+}
+
+
+
+ol,ul{
+  font-family: monospace;
+}
+
+
+.intro{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  text-indent: 1.9em;
+  margin-top: 70px ;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+
+}
+
+.image-replacement{
+ 
+  background:url(../images/bus6.jpg) no repeat;
+
+}
+body{
+  background-color: rgb(46, 175, 192);
+  color: rgb(29, 29, 31)
+ 
+}
+p{
+  margin-left: 10px;
+  margin-right:15px;
+}
+
+img,.border-caption{
+   border: 2px ridge rgb(43, 153, 226);
+  padding: 5px;
+  outline: 2px solid lightgray ;
+
+}
+
+
+body{
+  line-height:1.6em;
+  font-size:16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal; 
+
+
+}
+.container{
+  width: 700px;
+  margin:auto;
+
+
+}
+ .box{
+   background-color:powderblue;
+   border-left:5px solid rebeccapurple;
+   border-right:5px solid rebeccapurple;
+   border-top:5px solid rebeccapurple;
+   border-bottom:5px solid rebeccapurple;
+   border-width: 3px;
+   padding: 20px;
+   margin:20px;
+   
+
+ }
+
+ .box h2{
+   font-family: tahoma;
+   font-style: italic;
+   letter-spacing: 0.2em;
+   word-spacing: 0.5em;
+   text-decoration:underline;
+   text-transform: uppercase;
+
+
+
+ }
+
+
+
+
+
+
+
+
